@@ -1,33 +1,26 @@
-# adm01007
-Objetivos:
-Este é um projeto de dados que tem como objetivo analisar o potencial de mercado de sustentabilidade para todos os municípios do Brasil a partir do número de emissões de gases de efeito estufa. Para isso, serão utilizadas as seguintes informações:
+Objetivo:
 
-Dados Utilizados: 
-1 - Base de Dados do SEEG: compreende a produção de estimativas anuais das emissões de gases de efeito estufa (GEE) no Brasil.
-2 - Estimativas Populacionais do IBGE: compreende a média estimada da população de cada município dos anos de 2015 a 2019.
-3 - PIB de cada município: compreende a média do PIB de cada município dos anos de 2015 a 2019. Ademais, informação se o município está localizado na amazônia legal.
-4 - Índice de GINI Censo IBGE: compreende o indicador de desigualdade de cada município coletado a partir do Censo de 2010.
-5 - Produção da Agricultura IBGE: produção total de 2015 a 2019 em cada município para arroz e soja. 
-6 - Produção Agropecuária IBGE: produção total de 2015 a 2019 em cada município de bovinos.
-7 -  Quantidade de Empresas IBGE: quantidade de empresas com cadastro ativos em 2019 para os diferentes setores econômicos.
+Este projeto de dados tem como objetivo prever o potencial de mercado de crédito de carbono para intermediadoras no processo de compensação, por meio de métodos de regressão. Nós buscamos mensurar o valor monetário que uma empresa que atua neste setor pode produzir em cada município brasileiro, a partir de uma série de variáveis preditoras.
 
-Bases de dados disponíveis em: https://drive.google.com/drive/folders/1-18aBlbKyVBy1obP8oavlDnLfpydoDaP?usp=sharing
+Estrutura do código:
 
-Metodologia
-Para realizar a análise, será utilizada a linguagem de programação Python. 
-Os dados serão limpos e organizados em uma tabela (nome dados no drive disponibilizado acima). Em seguida, serão realizadas análises exploratórias para entender a distribuição dos dados e identificar possíveis relações entre as variáveis.
+O código é dividido em três etapas principais: limpeza e organização dos dados, análises exploratórias e construção do modelo preditivo utilizando regressão linear múltipla.
 
-Serão utilizadas técnicas de análise estatística, como regressão linear, para quantificar a relação entre as variáveis. 
+Para realizar a análise, será utilizada a linguagem de programação Python e as seguintes bibliotecas: Pandas, Matplotlib, Openpyxl, Seaborn, Sklearn.
 
-Bibliotecas utilizadas: 
-Pandas
-Matplotlib
-Openpyxl
-Seaborn
-Sklearn
-Os dados utilizados no projeto serão disponibilizados em formato xlsx
+Dados utilizados:
 
-Autores
-Este projeto foi desenvolvido por Enrico Davi, Frederico Bianchessi e Ian Vecchia.
+Os dados utilizados para compor o modelo preditivo são provenientes de diversas fontes, incluindo:
+
+Base de Dados do SEEG: compreende a produção de estimativas anuais das emissões de gases de efeito estufa (GEE) no Brasil a nível municipal.
+Estimativas Populacionais do IBGE: compreende a média estimada da população de cada município dos anos de 2015 a 2019.
+PIB de cada município: compreende a média do PIB de cada município dos anos de 2015 a 2019.
+Informação se o município está localizado na Amazônia legal.
+Índice de GINI Censo IBGE: compreende o indicador de desigualdade de cada município coletado a partir do Censo de 2010.
+Produção da Agricultura IBGE: produção total de 2015 a 2019 em cada município para arroz e soja.
+Produção Agropecuária IBGE: produção total de 2015 a 2019 em cada município de bovinos.
+Quantidade de Empresas IBGE: quantidade de empresas com cadastros ativos em 2019 para os diferentes setores econômicos.
+As bases de dados estão disponíveis no seguinte link: https://drive.google.com/drive/folders/1-18aBlbKyVBy1obP8oavlDnLfpydoDaP?usp=sharing.
 
 
+A base e o dicionário de dados estão disponíveis na pasta data neste repositório. 
