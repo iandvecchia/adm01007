@@ -1,6 +1,6 @@
 Objetivo:
 
-Este projeto de dados tem como objetivo prever o potencial de mercado de crédito de carbono para intermediadoras no processo de compensação, por meio de métodos de regressão. Nós buscamos mensurar o valor monetário que uma empresa que atua neste setor pode produzir em cada município brasileiro, a partir de uma série de variáveis preditoras.
+O presente trabalho tem como objetivo criar um modelo de regressão para prever a emissão de gases do efeito estufa nos municipios Brasileiros. A partir disso, mensurar o potencial de mercado para crédito de carbono e outras práticas sustentáveis.
 
 Estrutura do código:
 
